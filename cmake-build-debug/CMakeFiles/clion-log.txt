@@ -15,14 +15,5 @@
 -- Detecting CXX compile features - done
 -- Minimal optimization, debug info included
 -- Configuring done
-CMake Error at CMakeLists.txt:63 (add_executable):
-  Cannot find source file:
-
-    Core/Src/led_test.c
-
-
-CMake Error at CMakeLists.txt:63 (add_executable):
-  No SOURCES given to target: Template.elf
-
-
-CMake Generate step failed.  Build files cannot be regenerated correctly.
+-- Generating done
+-- Build files have been written to: /Users/zhihh/CLionProjects/Template1/cmake-build-debug

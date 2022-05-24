@@ -54,7 +54,7 @@ include_directories(STM32F10x_FWLib/Inc Core/Inc  SYSTEM/Inc HARDWARE/Inc)
 add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE)
 
 
-set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F103RCTX_FLASH.ld Core/Src/led_test.c)
+set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F103RCTX_FLASH.ld)
 
 add_link_options(-Wl,-gc-sections,--print-memory-usage,-Map=${PROJECT_BINARY_DIR}/${PROJECT_NAME}.map)
 add_link_options(-mcpu=cortex-m3 -mthumb -mthumb-interwork)

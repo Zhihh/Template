@@ -14,7 +14,27 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf3b116c-273f-4bab-afea-0e8254642856" name="Changes" comment="" />
+    <list default="true" id="cf3b116c-273f-4bab-afea-0e8254642856" name="Changes" comment="有点问题这个">
+      <change afterPath="$PROJECT_DIR$/Core/Inc/cmsis_armcc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/cmsis_armclang.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/cmsis_compiler.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Inc/core_cm3.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/core_cm3.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/core_cm3.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HARDWARE/Src/lcd.c" beforeDir="false" afterPath="$PROJECT_DIR$/HARDWARE/Src/lcd.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Template.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Template.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Template.elf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Template.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Template.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Template.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Template.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,8 +44,14 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectApplicationVersion">
     <option name="ide" value="CLion" />
@@ -33,12 +59,16 @@
     <option name="minorVersion" value="1.1" />
   </component>
   <component name="ProjectId" id="29bCiuHPiHY3ck0ybeNDBUq8Efx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
@@ -47,7 +77,8 @@
     "cidr.known.project.marker": "true",
     "last_opened_file_path": "/Users/zhihh/CLionProjects/Template1/Core/Src",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "CMakeSettings"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -68,7 +99,7 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OCD Template" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Template" TARGET_NAME="Template.elf" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="Template" RUN_TARGET_NAME="Template.elf">
+    <configuration name="OCD Template" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Template" TARGET_NAME="Template.elf" CONFIG_NAME="Debug" version="1" RUN_PATH="$USER_HOME$/Downloads/【正点原子】MiniSTM32开发板资料-A盘/4，程序源码/2，标准例程-V3.5库函数版本/ALIENTEK MINISTM32 实验11 TFT LCD液晶显示实验/OBJ/LCD.hex">
       <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="$PROJECT_DIR$/st_nucleo_f103rb.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
         <debugger kind="GDB" isBundled="true" />
       </openocd>
@@ -91,8 +122,16 @@
       <workItem from="1653375317517" duration="429000" />
       <workItem from="1653375883075" duration="212000" />
       <workItem from="1653377478920" duration="2121000" />
-      <workItem from="1653380763299" duration="7218000" />
+      <workItem from="1653380763299" duration="9619000" />
     </task>
+    <task id="LOCAL-00001" summary="有点问题这个">
+      <created>1653394718830</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653394718830</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,5 +139,21 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.cfg" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="有点问题这个" />
+    <option name="LAST_COMMIT_MESSAGE" value="有点问题这个" />
   </component>
 </project>

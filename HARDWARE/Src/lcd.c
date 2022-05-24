@@ -2225,7 +2225,7 @@ void LCD_Draw_Circle(u16 x0,u16 y0,u8 r)
 //x,y:起始坐标
 //num:要显示的字符:" "--->"~"
 //size:字体大小 12/16/24
-//mode:叠加方式(1)(保持底色)还是非叠加方式(0)（不保持底色）
+//mode:叠加方式(1)还是非叠加方式(0)
 void LCD_ShowChar(u16 x,u16 y,u8 num,u8 size,u8 mode)
 {
     u8 temp, t1, t;
